@@ -1,0 +1,8 @@
+daly_bms_msgs/Soc soc
+daly_bms_msgs/CellVoltageRange cell_voltage_range
+daly_bms_msgs/TemperatureRange temperature_range
+daly_bms_msgs/MosfetStatus mosfet_status
+daly_bms_msgs/Status Status
+int16[] temperatures
+daly_bms_msgs/BalancingStatus balancing_status
+string[] errors

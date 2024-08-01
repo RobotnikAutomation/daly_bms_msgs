@@ -1,0 +1,4 @@
+float32 highest_temperature
+int8 highest_sensor
+float32 lowest_temperature
+int8 lowest_sensor
