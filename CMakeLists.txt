@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
+
+# Set CMP0048 policy to NEW to manage version variables
+cmake_policy(SET CMP0048 NEW)
+
 project(daly_bms_msgs)
 
 ## Find catkin macros and libraries
@@ -14,6 +18,14 @@ find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs message_generati
 ## Generate messages in the 'msg' folder
 add_message_files(DIRECTORY msg
     FILES
+    BalancingStatus.msg
+    CellVoltageRange.msg
+    CompleteStatus.msg
+    MosfetStatus.msg
+    Soc.msg
+    State.msg
+    Status.msg
+    TemperatureRange.msg
 )
 
 ## Generate services in the 'srv' folder

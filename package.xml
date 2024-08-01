@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>daly_bms_msgs</name>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>The daly_bms_msgs package. Common messages and services used by daly_bms package.</description>
 
   <maintainer email="aarnal@robotnik.es">Alejandro Arnal</maintainer>

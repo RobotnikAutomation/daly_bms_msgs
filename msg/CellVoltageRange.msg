@@ -1,0 +1,4 @@
+float32 highest_voltage
+int16 highest_cell
+float32 lowest_voltage
+int16 lowest_cell
